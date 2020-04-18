@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(49, 45, 45);
+    color:white;
+}
+.container{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: nowrap;
+align-items: center;
+}
+.writeup{
+    width: 700px;
+    text-align: center;
+    font-family: cursive;
+    background-color: rgb(49, 45, 45);
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    color:black;
+    font-family: cursive;
+
+}
+.profile{
+    margin-left: 20px;
+    margin-top:40px;
+    text-align:center;
+}
+.edu{
+    margin-top:40px;
+    text-align:center;
+ margin-right: 100px;
+}
+.skills{
+    margin-top:40px;
+    text-align:center;
+    margin-right: 100px;
+
+}
+button{
+    background-color: teal;
+    color:white;
+    border: 0px;
+    width: 100px;
+    height:50px ;
+}
+.contact{
+    text-align:center;
+}
+input{
+    width: 30%;
+    margin-top:10px;
+    height: 50px;
+    border: 0;
+
+}
+textarea{
+    margin-top: 10px;
+    width: 30%;
+
+}
+::placeholder{
+    font-size: 20px;
+    font-family: cursive;
+}
+footer{
+    text-align: center;
+    border: 0px solid grey;
+    width: 100%;
+    background-color: rgb(10, 15, 15);
+    margin-top: 20px;
+}
